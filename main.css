@@ -1,3 +1,7 @@
+:root {
+	--dark-background-color: #101010;
+}
+
 a {
 	color: #36B;
 }
@@ -7,24 +11,24 @@ a:visited {
 }
 
 div#simpleSearch {
-	background: #000;
+	background: var(--dark-background-color);
 	border: 0;
 }
 #searchInput {
-    border: 0;
+	border: 0;
 }
 
 #mw-fr-reviewnotice,
 .navbox,
 .navbox-group {
-	background-color: #000;
+	background-color: var(--dark-background-color);
 	color: #8C8C8C;
 	border: none !important;
 }
 
 html,
 [style*="#CFFF9F;"],
-.mw-echo-notifications-badge, 
+.mw-echo-notifications-badge,
 aside li, /* related articles */
 .NavHead,
 [style*="#CFFF9F;"],
@@ -34,7 +38,7 @@ div#mw-head div.vectorMenu h3,
 .infobox *,
 div#editpage-specialchars a
 {
-    background: #000 !important;
+	background: var(--dark-background-color) !important;
 }
 
 div.vectorTabs li.selected {
@@ -44,11 +48,11 @@ div.vectorTabs li.selected {
 
 div.vectorTabs ul li{
 	background-image: none;
-	background: #000;
+	background: var(--dark-background-color);
 }
 
 div#simpleSearch input {
-	background: #000;
+	background: var(--dark-background-color);
 	color: lightgray;
 }
 
@@ -63,7 +67,7 @@ div#simpleSearch input {
 }
 */
 .infobox {
-	background: #000;
+	background: var(--dark-background-color);
 	color: lightgray;
 	border: none;
 }
@@ -71,7 +75,7 @@ div#simpleSearch input {
 div.thumbinner,
 .editOptions /* page for editing css - below code */
 {
-	background-color: #000;
+	background-color: var(--dark-background-color);
 	border: none !important;
 }
 
@@ -88,13 +92,13 @@ td
 	border: none !important;
 }
 
-table, 
-.plainlinks 
-.editOptions, 
-.catlinks, 
+table,
+.plainlinks
+.editOptions,
+.catlinks,
 .noprint
 {
-	background: #000 !important;
+	background: var(--dark-background-color) !important;
 	border: none !important;
 }
 
@@ -108,16 +112,16 @@ tr {
 
 #mw-page-base {
 	background-image: none;
-	background: #000;
+	background: var(--dark-background-color);
 }
 
 .mw-body {
-	background: #000;
+	background: var(--dark-background-color);
 	border-width: 0;
 }
 
 .mw-body-content,
-aside a, 
+aside a,
 aside p, /* related articles: titles & second line with desc*/
 .infobox span
 {
@@ -127,14 +131,14 @@ aside p, /* related articles: titles & second line with desc*/
 #mw-panel {
 	display:none;
 }
- 
+
 #content {
 	margin-left: 0;
 }
 
 #toc
 {
-	background: #000;
+	background: var(--dark-background-color);
 	border: 0;
 }
 
@@ -142,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 0;
 	color: lightgray;
 }
- 
+
 .mw-body h1 {
 	font-size: 4em;
 }
@@ -153,18 +157,18 @@ h1, h2, h3, h4, h5, h6 {
 
 code {
 	color: lightgray;
-	background: #000;
+	background: var(--dark-background-color);
 	border: 1px solid;
 }
 
 .mw-code {
-	background: #000;
+	background: var(--dark-background-color);
 	color: lightgray;
 	border: 0;
 }
 
 pre, .mw-code {
-	background: #000;
+	background: var(--dark-background-color);
 	color: lightgray;
 	border: 0;
 }
@@ -176,14 +180,14 @@ pre, .mw-code {
 .kw3 { color: #4444aa; }
 .kw2 { color: #ccc; }
 
- /* keywords: class, extends, private, this, new, return */
+/* keywords: class, extends, private, this, new, return */
 .java5.source-java5 .kw2 { color: white; }
 
 /* code */
 .kw4
 .java.source-java,  /* return type, ex void */
 .kw4,
-.nn 
+.nn
 {
 	color: lightblue !important;
 }
@@ -230,12 +234,12 @@ pre, .mw-code {
 .nc,.nf{color: #9090DB !important;}
 
 .ambox {
-	background: #000;
+	background: var(--dark-background-color);
 	border: 1px solid lightgray;
 }
 
 blockquote {
-	background: #000;
+	background: var(--dark-background-color);
 	border: 1px solid darkslategrey !important;
 }
 
@@ -251,7 +255,7 @@ aside h3:after, /* related articles: gradient line */
 th,
 td
 {
-    background: none !important;
+	background: none !important;
 }
 
 #footer {
@@ -259,6 +263,6 @@ td
 }
 
 html {
-    scrollbar-width: thin;
-    scrollbar-color: #555 #000;
+	scrollbar-width: thin;
+	scrollbar-color: #555 var(--dark-background-color);
 }
