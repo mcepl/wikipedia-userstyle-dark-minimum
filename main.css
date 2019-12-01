@@ -57,10 +57,11 @@ div#simpleSearch input {
 }
 
 /* main font */
+/*
 .mw-body-content {
 	font-size: 1.5em;
 }
-
+*/
 .infobox {
 	background: #000;
 	color: lightgray;
