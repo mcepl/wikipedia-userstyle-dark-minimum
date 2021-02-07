@@ -61,11 +61,11 @@ div#simpleSearch input {
 }
 
 /* main font */
-/*
 .mw-body-content {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	font-size: 110%;
 }
-*/
+
 .infobox {
 	background: var(--dark-background-color);
 	color: lightgray;
@@ -148,11 +148,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mw-body h1 {
-	font-size: 4em;
+	/*font-size: 4em;*/
+	font-size: 250%;
 }
 
 .mw-body h2 {
-	font-size: 3em;
+	/*font-size: 3em;*/
+	font-size: 200%;
 }
 
 code {
